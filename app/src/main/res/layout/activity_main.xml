@@ -1,37 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
+
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:gravity="top"
-    android:orientation="vertical">
-
+    android:gravity="center"
+    android:orientation="vertical"
+    >
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="ESCOLHA SUA MODALIDADE"
-        android:textSize="27dp"
+        android:textSize="27sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageButton
-        android:layout_width="428dp"
-        android:layout_height="236dp"
-        android:src="@drawable/btn_jxj_ac"
-
+        app:layout_constraintTop_toTopOf="parent"
         />
 
-    <ImageButton
-        android:layout_width="304dp"
-        android:layout_height="301dp"
-        android:src="@drawable/bt"
+        <ImageButton
+            android:id="@+id/jj"
+            android:layout_width="272dp"
+            android:layout_height="225dp"
+            android:scaleType="centerInside"
+            android:backgroundTint="#8AC4D0"
+            android:src="@drawable/btn_jj"
+            />
 
-        />
+        <ImageButton
+            android:id="@+id/jc"
+            android:layout_width="272dp"
+            android:layout_height="225dp"
+            android:scaleType="centerInside"
+            android:backgroundTint="#8AC4D0"
+            android:src="@drawable/btn_jc"
+
+            />
+
+
+
 
 
 
